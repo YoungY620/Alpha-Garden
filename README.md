@@ -10,14 +10,14 @@
   An evidence-first strategy evolution lab.
 </p>
 
-![Alpha Garden turns each trading question into a custom, frozen research environment for strategy evolution and sealed holdout testing.](assets/alpha-garden-concept.png)
-
 Alpha Garden's `evolve-trading-strategy` agent skill turns a user's trading idea or
 research library into a rigorously tested, single-instrument time-series
 strategy. It coordinates isolated generic agent tasks through a transactional
 SQLite queue, exposes a generated read-only evolution monitor, applies
 deterministic validation and selection gates, and delivers a reproducible
 strategy plus a professional PDF research report.
+
+![Alpha Garden turns each trading question into a custom, frozen research environment for strategy evolution and sealed holdout testing.](assets/alpha-garden-concept.png)
 
 The first release focuses on minute-or-higher OHLCV bars. It does not perform
 cross-sectional stock selection or place live orders.
