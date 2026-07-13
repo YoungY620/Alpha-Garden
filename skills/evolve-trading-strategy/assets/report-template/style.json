@@ -1,0 +1,21 @@
+{
+  "page": "A4",
+  "palette": {
+    "navy": "#13283F",
+    "blue": "#2C5F8A",
+    "slate": "#4E5D6C",
+    "risk": "#A04A3A",
+    "paper": "#FFFFFF"
+  },
+  "font_preferences": {
+    "sans": ["Source Han Sans", "Noto Sans CJK", "DejaVu Sans"],
+    "serif": ["Source Han Serif", "Noto Serif CJK", "DejaVu Serif"]
+  },
+  "chart_rules": {
+    "show_units": true,
+    "show_sample_size": true,
+    "separate_data_splits": true,
+    "forbid_truncated_axes_without_disclosure": true
+  }
+}
+

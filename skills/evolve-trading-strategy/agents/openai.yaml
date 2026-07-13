@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evolve Trading Strategy"
+  short_description: "Evolve trading ideas into validated strategies"
+  default_prompt: "Use $evolve-trading-strategy to turn my research notes into a validated single-instrument strategy and PDF report."

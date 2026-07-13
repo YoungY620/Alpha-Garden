@@ -1,0 +1,51 @@
+{
+  "title": "Strategy Research Report",
+  "subtitle": "Single-instrument time-series research",
+  "identity": {
+    "experiment_version": "example-v1",
+    "instrument": "EXAMPLE",
+    "bar_interval": "1h",
+    "data_cutoff": "YYYY-MM-DD",
+    "status": "No qualified strategy"
+  },
+  "executive_summary": [
+    "This example demonstrates the required report structure. Replace every example statement with evidence from the frozen experiment ledger."
+  ],
+  "key_risks": [
+    "Do not present a candidate as qualified unless it passed all pre-registered gates."
+  ],
+  "headline_metrics": [
+    ["Net return", "Not reported", "Not reported", "Sealed", "Example only"],
+    ["Maximum drawdown", "Not reported", "Not reported", "Sealed", "Example only"]
+  ],
+  "sections": [
+    {
+      "title": "Strategy Operations",
+      "paragraphs": [
+        "Describe entry, add, reduce, exit, stop, cooldown, missing-data, gap, and conflicting-condition branches in natural language."
+      ],
+      "table": [
+        ["Branch", "Condition", "Action", "Priority"],
+        ["Example", "Replace with frozen rule", "Replace with action", "Replace with priority"]
+      ]
+    },
+    {
+      "title": "Evidence and Risk",
+      "page_break": true,
+      "paragraphs": [
+        "Separate train, validation, and sealed-test evidence. Explain both strengths and failure conditions."
+      ]
+    }
+  ],
+  "disclosures": [
+    "Research only. No live orders were placed.",
+    "Historical simulation does not guarantee future performance."
+  ],
+  "hashes": {
+    "strategy": "replace-with-sha256",
+    "parameters": "replace-with-sha256",
+    "data_manifest": "replace-with-sha256",
+    "experiment_ledger": "replace-with-sha256"
+  }
+}
+

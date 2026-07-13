@@ -1,0 +1,8 @@
+pandas>=2.0,<4
+numpy>=1.24,<3
+vectorbt>=1.1,<2
+reportlab>=4.0,<5
+pypdf>=4.0,<7
+matplotlib>=3.7,<4
+pyarrow>=14.0,<24
+Flask>=3.0,<4
