@@ -10,6 +10,10 @@
   An evidence-first strategy evolution lab.
 </p>
 
+<p align="center">
+  English · <a href="README.zh-CN.md">简体中文</a>
+</p>
+
 Alpha Garden is a modern, agent-native reconstruction of the research direction
 introduced by [CogAlpha: Cognitive Alpha Mining via LLM-Driven Code-Based
 Evolution](https://arxiv.org/abs/2511.18850). It preserves the central idea—use
